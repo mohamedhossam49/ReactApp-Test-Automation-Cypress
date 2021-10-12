@@ -9,10 +9,9 @@ Feature: Product Page Workflow
         Then I should be able to see the different products listed  
 
         Scenario: Filter products by size
-            When I filter products by size
+            When I filter products by XL size
             Then I should be able to see products listed by specified size
 
         Scenario: Filter products by price
-            When I filter products by price
-            Then I should be able to see products listed by price
-                
+            When I filter products by lowest price
+            Then I should be able to see products listed by lowest price        

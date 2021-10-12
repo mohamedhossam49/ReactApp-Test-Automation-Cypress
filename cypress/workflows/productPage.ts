@@ -17,17 +17,25 @@ export const validateUserIsInLandingPage = () => {
 }
 
 export const filterProductsBySize = () => {
+    cy.wait(1500)
     cy.get(productPage.totalProductsFound).then(($total) => {
         const total = $total.text()
-        cy.wait(2000)
-        cy.get(productPage.sizes.xl).click()
-        cy.wait(2000)
-            validateProductsFilterBySize(total)
-    })  
+        cy.get(productPage.filter.sizes.xl).click({timeout: 30000, force:true})
+            validateUserCanFilterBySize(total)
+    })
 }
 
-export const validateProductsFilterBySize = (total: string) => {
-    cy.get(productPage.totalProductsFound).then(($xlTotal) => {
+export const validateUserCanFilterBySize = (total: string) => {
+    cy.get(productPage.totalProductsFound).should(($xlTotal) => {
         expect($xlTotal.text()).not.to.eq(total)
-})
+    })
+    cy.get(productPage.totalProductsFound).should('contain.text',productPage.filter.sizes.xlValues)
+}
+
+export const filterProductsByLowestPrice = () => {
+    cy.get(productPage.orderBy).select(productPage.filter.lowestPrice).should('have.value',productPage.filter.lowestText)
+}
+
+export const validateUserCanFilterByLowestPrice = () => {
+
 }
