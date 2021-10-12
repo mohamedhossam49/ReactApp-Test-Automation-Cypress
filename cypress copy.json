@@ -1,9 +1,0 @@
-{
-  "ignoreTestFiles": ["*.ts"],
-  "chromeWebSecurity": false,
-  "experimentalSourceRewriting": true,
-  "defaultCommandTimeout": 30000,
-  "pageLoadTimeout": 60000,
-  "isInteractive": false,
-  "experimentalStudio": false
-}

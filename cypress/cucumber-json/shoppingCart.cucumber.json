@@ -23,7 +23,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 329000000
+              "duration": 2186000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 37000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I add a product to cart",
             "result": {
               "status": "passed",
-              "duration": 273000000
+              "duration": 422000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "I should be able to see it in shopping cart",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 77000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 190000000
+              "duration": 231000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 10000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I increase a product quantity in cart",
             "result": {
               "status": "passed",
-              "duration": 510000000
+              "duration": 496000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "I should be able to see the amount updated",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 10000000
             }
           }
         ]
@@ -133,7 +133,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 11000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I remove a product from cart",
             "result": {
               "status": "passed",
-              "duration": 484000000
+              "duration": 479000000
             }
           },
           {
@@ -153,7 +153,7 @@
             "name": "I should not be able to see it in shopping cart",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 8000000
             }
           }
         ]

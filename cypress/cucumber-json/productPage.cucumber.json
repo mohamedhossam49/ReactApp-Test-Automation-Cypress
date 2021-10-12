@@ -23,7 +23,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 666000000
+              "duration": 2849000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 42000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I filter products by XL size",
             "result": {
               "status": "passed",
-              "duration": 1741000000
+              "duration": 1751000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "I should be able to see products listed by specified size",
             "result": {
               "status": "passed",
-              "duration": 21000000
+              "duration": 24000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 238000000
+              "duration": 245000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 16000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I filter products by lowest price",
             "result": {
               "status": "passed",
-              "duration": 145000000
+              "duration": 163000000
             }
           },
           {
