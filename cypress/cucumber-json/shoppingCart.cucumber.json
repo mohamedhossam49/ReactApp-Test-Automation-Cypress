@@ -23,7 +23,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 2186000000
+              "duration": 2223000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 43000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I add a product to cart",
             "result": {
               "status": "passed",
-              "duration": 422000000
+              "duration": 413000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "I should be able to see it in shopping cart",
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 103000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 231000000
+              "duration": 272000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 12000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I increase a product quantity in cart",
             "result": {
               "status": "passed",
-              "duration": 496000000
+              "duration": 462000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "I should be able to see the amount updated",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 14000000
             }
           }
         ]
@@ -123,7 +123,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 181000000
+              "duration": 244000000
             }
           },
           {
@@ -143,7 +143,7 @@
             "name": "I remove a product from cart",
             "result": {
               "status": "passed",
-              "duration": 479000000
+              "duration": 498000000
             }
           },
           {

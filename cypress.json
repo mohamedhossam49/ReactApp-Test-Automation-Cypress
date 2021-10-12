@@ -6,14 +6,15 @@
     "pageLoadTimeout": 60000,
     "isInteractive": false,
     "experimentalStudio": false,
-    "reporter": "cypress-mochawesome-reporter",
+    "reporter": "mochawesome",
     "reporterOptions": {
         "reportDir": "cypress/reports",
         "charts": true,
+        "html":true,
         "reportPageTitle": "ZTech-Report",
         "embeddedScreenshots": true,
         "inlineAssets": true
     },
-    "video": false
+    "video":false
 }
   
