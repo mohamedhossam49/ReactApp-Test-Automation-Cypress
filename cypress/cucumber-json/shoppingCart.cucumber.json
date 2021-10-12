@@ -23,7 +23,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 2223000000
+              "duration": 2338000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 43000000
+              "duration": 39000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "I add a product to cart",
             "result": {
               "status": "passed",
-              "duration": 413000000
+              "duration": 528000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "I should be able to see it in shopping cart",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 77000000
             }
           }
         ]
@@ -73,7 +73,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 272000000
+              "duration": 248000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 11000000
             }
           },
           {
@@ -92,8 +92,8 @@
             "line": 15,
             "name": "I increase a product quantity in cart",
             "result": {
-              "status": "passed",
-              "duration": 462000000
+              "status": "failed",
+              "error_message": "CypressError: Timed out retrying after 30050ms: `cy.click()` failed because this element is `disabled`:\n\n`<button disabled=\"\" class=\"change-product-button\">-</button>`\n\nFix this problem, or use `{force: true}` to disable error checking.\n\nhttps://on.cypress.io/element-cannot-be-interacted-with\n    at $Cy.ensureNotDisabled (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:160457:85)\n    at runAllChecks (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:147820:14)\n    at retryActionability (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:147894:16)\n    at tryCatcher (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Function.Promise.attempt.Promise.try (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:10486:29)\n    at tryFn (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:165305:61)\n    at whenStable (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:165344:14)\n    at https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:164831:18\n    at tryCatcher (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11329:18)\n    at Promise._fulfill (https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:11273:18)\n    at https://react-shopping-cart-67954.firebaseapp.com/__cypress/runner/cypress_runner.js:12887:46\nFrom Your Spec Code:\n    at Object.exports.updateProductInCart (https://react-shopping-cart-67954.firebaseapp.com/__cypress/tests?p=cypress\\integration\\reactApp\\shoppingCart.feature:223:62)\n    at Context.eval (https://react-shopping-cart-67954.firebaseapp.com/__cypress/tests?p=cypress\\integration\\reactApp\\shoppingCart.feature:63:9)\n    at Context.resolveAndRunStepDefinition (https://react-shopping-cart-67954.firebaseapp.com/__cypress/tests?p=cypress\\integration\\reactApp\\shoppingCart.feature:12096:29)\n    at Context.eval (https://react-shopping-cart-67954.firebaseapp.com/__cypress/tests?p=cypress\\integration\\reactApp\\shoppingCart.feature:11417:35)"
             }
           },
           {
@@ -102,8 +102,7 @@
             "line": 16,
             "name": "I should be able to see the amount updated",
             "result": {
-              "status": "passed",
-              "duration": 14000000
+              "status": "skipped"
             }
           }
         ]
@@ -123,7 +122,7 @@
             "name": "I am in react app landing page",
             "result": {
               "status": "passed",
-              "duration": 244000000
+              "duration": 1322000000
             }
           },
           {
@@ -133,7 +132,7 @@
             "name": "I should be able to see the different products listed",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 39000000
             }
           },
           {
@@ -143,7 +142,7 @@
             "name": "I remove a product from cart",
             "result": {
               "status": "passed",
-              "duration": 498000000
+              "duration": 405000000
             }
           },
           {
@@ -153,7 +152,7 @@
             "name": "I should not be able to see it in shopping cart",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 42000000
             }
           }
         ]

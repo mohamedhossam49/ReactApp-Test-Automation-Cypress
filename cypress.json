@@ -15,6 +15,6 @@
         "embeddedScreenshots": true,
         "inlineAssets": true
     },
-    "video":false
+    "video":true
 }
   

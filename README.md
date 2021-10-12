@@ -31,3 +31,4 @@ NOTE: When running tests from command line: Screenshots are taken on test failur
 - To run test from command line: npx cypress run OR yarn cypress run
 - To view screenshots on failed tests -> cypress/screenshots
 - To view videos for all test run -> cypress/videos (you will need to run the following command: yarn cypress run)
+
