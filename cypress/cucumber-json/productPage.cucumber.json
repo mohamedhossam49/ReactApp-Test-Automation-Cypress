@@ -1,0 +1,113 @@
+[
+  {
+    "description": "    As a user\n    I would like to be able to view products in product page\n    And filter them by different filtering options\n    so that I can add them to my shopping cart",
+    "keyword": "Feature",
+    "name": "Product Page Workflow",
+    "line": 1,
+    "id": "product-page-workflow",
+    "tags": [],
+    "uri": "productPage.feature",
+    "elements": [
+      {
+        "id": "product-page-workflow;filter-products-by-size",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Filter products by size",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am in react app landing page",
+            "result": {
+              "status": "passed",
+              "duration": 617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see the different products listed",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I filter products by size",
+            "result": {
+              "status": "passed",
+              "duration": 4120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should be able to see products listed by specified size",
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-page-workflow;filter-products-by-price",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Filter products by price",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am in react app landing page",
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I should be able to see the different products listed",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I filter products by price",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should be able to see products listed by price",
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

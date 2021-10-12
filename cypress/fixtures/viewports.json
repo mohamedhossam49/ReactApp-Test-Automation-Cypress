@@ -1,0 +1,11 @@
+{
+    "default": {
+      "witdth": 1500,
+      "height": 800
+    },
+    "iphone-11": {
+      "witdth": 375,
+      "height": 812
+    }
+  }
+  
